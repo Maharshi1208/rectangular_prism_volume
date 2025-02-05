@@ -3,10 +3,16 @@
 This Bash script calculates the volume of a rectangular prism based on given dimensions.
 
 ## Usage
+1. Run calculate_volume.sh to calculate the volume.
+2. Run test_calculate_volume.sh to execute the main test.
+3. Run additional test scripts as needed.
 
-To calculate the volume, run `calculate_volume.sh` with three arguments: height, width, and length.
+## Tests
+* Test 1: Test with positive integers
+* Test 2: Test with zero dimensions
 
-Example:
+## Additional Tests to Implement
 
-```bash
-./calculate_volume.sh 3 4 5
+* Test 3: Negative numbers should return an error
+* Test 4: large numbers should give error
+
